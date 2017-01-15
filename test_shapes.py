@@ -7,16 +7,16 @@ import time
 #         RECTANGLE           #
 ###############################
 
-my_rect=Rectangle(10,10)
+my_rect=Rectangle(100,100)
 print('The area of the rectangle is '+str(my_rect.get_area())+'.')
 
-my_rect.set_length(50)
+my_rect.set_length(300)
 print('Now, the area of the rectangle is '+str(my_rect.get_area())+'.')
 
 my_rect.draw_shape() #Draw the rectangle
 time.sleep(1) #Wait 1 second
 
-my_rect.set_height(200)
+my_rect.set_height(250)
 print('Now, the area of the rectangle is '+str(my_rect.get_area())+'.')
 time.sleep(1) #Wait 1 second
 
